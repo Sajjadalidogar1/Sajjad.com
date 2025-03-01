@@ -1,0 +1,260 @@
+/* here you can put your own css to customize and override the theme */
+
+body {
+    font-family: 'Droid Arabic Kufi', "Open Sans", sans-serif !important;
+}
+
+/***
+General typography
+***/
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Droid Arabic Kufi', "Open Sans", sans-serif !important;
+}
+
+/***
+Dropdown Menu
+***/
+
+.dropdown-menu {
+    font-family: 'Droid Arabic Kufi', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/***
+Customized Bootstrap Labels
+***/
+
+.label {
+    font-family: 'Droid Arabic Kufi', "Open Sans", sans-serif !important;
+}
+
+/***
+Bootstrap Datepaginator
+***/
+
+.datepaginator a {
+    font-family: 'Droid Arabic Kufi', 'Open Sans' !important;
+}
+
+.datepicker table td {
+    font-family: 'Droid Arabic Kufi', 'Open Sans' !important;
+}
+
+.datepicker table th {
+    font-family: 'Droid Arabic Kufi', 'Open Sans' !important;
+}
+
+/***
+Bootstrap  Datetimepicker
+***/
+
+.datetimepicker table td {
+    font-family: 'Droid Arabic Kufi', 'Open Sans' !important;
+}
+
+.datetimepicker table th {
+    font-family: 'Droid Arabic Kufi', 'Open Sans' !important;
+}
+
+.bootstrap-select.btn-group .dropdown-menu>li>dt>.text {
+    font-family: 'Droid Arabic Kufi', 'Open Sans' !important;
+}
+
+.gritter-title {
+    font-family: 'Droid Arabic Kufi', "Open Sans" !important;
+}
+
+.vakata-context,
+.vakata-context ul {
+    font-family: 'Droid Arabic Kufi', "Segoe UI", Helvetica, Arial, sans-serif !important;
+}
+
+.page-header.navbar .top-menu .navbar-nav>li.dropdown>.dropdown-toggle>.badge {
+    font-family: 'Droid Arabic Kufi', "Open Sans", sans-serif !important;
+}
+
+.page-header.navbar .top-menu .navbar-nav>li.dropdown-tasks .dropdown-menu .task .percent {
+    font-family: 'Droid Arabic Kufi', 'Open Sans', sans-serif !important;
+}
+
+.page-title {
+    font-family: 'Droid Arabic Kufi', "Open Sans", sans-serif !important;
+    /* subtitle */
+}
+
+.table.table-light>thead>tr>th {
+    font-family: 'Droid Arabic Kufi', "Open Sans", sans-serif !important;
+}
+
+.tooltip {
+    z-index: 20050 !important;
+}
+
+.popover {
+    font-family: 'Droid Arabic Kufi', "Open Sans", sans-serif !important;
+}
+
+.fullscreenModal .modal {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    overflow: hidden !important;
+}
+
+.fullscreenModal .modal-dialog {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.fullscreenModal .modal-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 2px solid #3c7dcf;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.fullscreenModal .modal-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    padding: 10px;
+    background: #6598d9;
+    border: 0;
+}
+
+.fullscreenModal .modal-title {
+    font-weight: 300;
+    font-size: 2em;
+    color: #fff;
+    line-height: 30px;
+}
+
+.fullscreenModal .modal-body {
+    position: absolute;
+    top: 50px;
+    bottom: 60px;
+    width: 100%;
+    font-weight: 300;
+    overflow: auto;
+}
+
+.fullscreenModal .modal-footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    padding: 10px;
+    background: #f1f3f5;
+}
+
+.groupbtnMargin {
+    margin-left: 5px;
+}
+
+.vcenter {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.page-header.navbar .page-logo .logo-default {
+    margin: 10px 0 0 0 !important;
+}
+
+.page-header-companyname:before {
+    content: "-";
+}
+
+.page-header-companyname {
+    padding-right: 5px;
+    color: white;
+}
+
+select.form-control {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+.modal {
+    z-index: 10065 !important;
+}
+
+.btn-circle {
+    min-width: 62px !important;
+}
+
+.note-editor.fullscreen {
+    z-index: 11000 !important;
+    width: 100% !important;
+}
+
+.popover {
+    z-index: 11001 !important;
+}
+
+.modal-open .bootstrap-timepicker-widget {
+    z-index: 10065 !important;
+}
+
+.modal-open .datepicker {
+    z-index: 10065 !important;
+}
+
+/*.page-header.navbar .page-logo {
+    width: 320px  !important;
+}*/
+
+.login .content {
+    background-color: #eceef1 !important;
+}
+
+.page-content {
+    margin-left: 200px !important;
+}
+
+.page-sidebar {
+    width: 200px !important;
+}
+
+.page-sidebar-fixed .page-footer {
+    margin-left: 200px;
+}
+
+.fixed-table-container {
+    border: none !important;
+    border-left: 1px solid #dddddd !important;
+    border-right: 1px solid #dddddd !important;
+}
+
+.bs-container {
+    z-index: 10071 !important;
+}
+
+.table1 {
+    border: none !important;
+    border-collapse: collapse !important;
+}
+
+.table1 td {
+    border: none !important;
+}
